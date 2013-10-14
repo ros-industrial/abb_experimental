@@ -8,11 +8,7 @@
   <author email="sedwards@swri.org">Shaun Edwards</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>irb_5400_arm_navigation</run_depend>
-  <run_depend>abb_common</run_depend>
-  <run_depend>irb_2400_arm_navigation</run_depend>
-  <run_depend>abb_moveit_plugins</run_depend>
-
+  <run_depend>abb_irb4400_support</run_depend>
 
   <export>
     <metapackage/>
