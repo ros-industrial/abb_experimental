@@ -32,6 +32,12 @@
     </material>
   </xacro:macro>
 
+  <xacro:macro name="material_abb_black">
+    <material name="">
+      <color rgba="${colour_abb_black}"/>
+    </material>
+  </xacro:macro>
+
   <xacro:macro name="material_abb_signal_red">
     <material name="">
       <color rgba="${colour_abb_signal_red}"/>
