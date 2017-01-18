@@ -1,0 +1,3 @@
+- git:
+    uri: https://github.com/ros-industrial/abb.git
+    local-name: ros-industrial/abb

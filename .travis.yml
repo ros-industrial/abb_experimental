@@ -11,12 +11,12 @@ notifications:
 
 env:
   matrix:
-    - USE_DEB=true
-      ROS_DISTRO="indigo"
+    - ROS_DISTRO="indigo"
       ROS_REPOSITORY_PATH=http://packages.ros.org/ros/ubuntu
-    - USE_DEB=true
-      ROS_DISTRO="indigo"
+      UPSTREAM_WORKSPACE=file
+    - ROS_DISTRO="indigo"
       ROS_REPOSITORY_PATH=http://packages.ros.org/ros-shadow-fixed/ubuntu
+      UPSTREAM_WORKSPACE=file
 
 install:
   - git clone https://github.com/ros-industrial/industrial_ci.git .ci_config
