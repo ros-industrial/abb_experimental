@@ -1,0 +1,2 @@
+- git: {local-name: abb, uri: 'https://github.com/ros-industrial/abb.git', version: kinetic-devel}
+

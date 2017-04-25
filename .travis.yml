@@ -1,25 +1,23 @@
 sudo: required
-dist: trusty
+dist: xenial
 language: generic
-
 compiler:
   - gcc
-
 notifications:
   email:
-    on_failure: always
+    on_success: never
+    on_failure: never
 
 env:
+  global:
+    - ROS_DISTRO=kinetic
+    - UPSTREAM_WORKSPACE=file
+    - ROSINSTALL_FILENAME=abb_experimental.rosinstall
+    - NOT_TEST_INSTALL=true
   matrix:
-    - ROS_DISTRO="indigo"
-      ROS_REPOSITORY_PATH=http://packages.ros.org/ros/ubuntu
-      UPSTREAM_WORKSPACE=file
-    - ROS_DISTRO="indigo"
-      ROS_REPOSITORY_PATH=http://packages.ros.org/ros-shadow-fixed/ubuntu
-      UPSTREAM_WORKSPACE=file
-
+    - ROS_REPOSITORY_PATH=http://packages.ros.org/ros/ubuntu
+    - ROS_REPOSITORY_PATH=http://packages.ros.org/ros-shadow-fixed/ubuntu
 install:
   - git clone https://github.com/ros-industrial/industrial_ci.git .ci_config
-
 script:
   - source .ci_config/travis.sh

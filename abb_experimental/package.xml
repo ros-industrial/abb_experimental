@@ -1,4 +1,5 @@
-<package>
+<?xml version="1.0"?>
+<package format="2">
   <name>abb_experimental</name>
   <version>1.0.0</version>
   <description>Experimental packages for abb manipulators within ROS-Industrial.</description>
@@ -8,9 +9,13 @@
   <author email="sedwards@swri.org">Shaun Edwards</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>abb_irb4400_support</run_depend>
+
+  <exec_depend>abb_resources</exec_depend>
+  <exec_depend>abb_driver</exec_depend>
+  <exec_depend>abb_irb4400_support</exec_depend>
 
   <export>
     <metapackage/>
   </export>
+
 </package>
