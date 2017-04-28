@@ -8,10 +8,9 @@ catkin_package()
 
 if (CATKIN_ENABLE_TESTING)
   find_package(roslaunch REQUIRED)
-  roslaunch_add_file_check(test/roslaunch_test.xml)
+  roslaunch_add_file_check(test/roslaunch_test_irb52_7_120.xml)
+  roslaunch_add_file_check(test/roslaunch_test_irb52_7_145.xml)
 endif()
 
-foreach(dir config launch meshes urdf)
-   install(DIRECTORY ${dir}/
-      DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
-endforeach()
+install(DIRECTORY config launch meshes urdf
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})

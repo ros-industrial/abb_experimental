@@ -2,7 +2,7 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
     <xacro:include filename="$(find abb_resources)/urdf/common_materials.xacro"/>
 
-    <xacro:macro name="abb_irb52" params="prefix">
+    <xacro:macro name="abb_irb52_7_145" params="prefix">
         <!-- link list -->
         <link name="${prefix}base_link">
             <visual>
@@ -39,14 +39,14 @@
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
                 <geometry>
-                    <mesh filename="package://abb_irb52_support/meshes/irb52/visual/link_2.stl"/>
+                    <mesh filename="package://abb_irb52_support/meshes/irb52_7_145/visual/link_2.stl"/>
                 </geometry>
                 <xacro:material_abb_orange />
             </visual>
             <collision>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
                 <geometry>
-                    <mesh filename="package://abb_irb52_support/meshes/irb52/collision/link_2.stl"/>
+                    <mesh filename="package://abb_irb52_support/meshes/irb52_7_145/collision/link_2.stl"/>
                 </geometry>
                 <xacro:material_abb_yellow />
             </collision>
@@ -131,14 +131,14 @@
             <parent link="${prefix}link_1"/>
             <child link="${prefix}link_2"/>
             <axis xyz="0 1 0"/>
-            <limit lower="${radians(-63)}" upper="${radians(110)}" effort="0" velocity="${radians(180)}"/>
+            <limit lower="${radians(-90)}" upper="${radians(120)}" effort="0" velocity="${radians(180)}"/>
         </joint>
         <joint name="${prefix}joint_3" type="revolute">
             <origin xyz="0 0 0.700" rpy="0 0 0"/>
             <parent link="${prefix}link_2"/>
             <child link="${prefix}link_3"/>
             <axis xyz="0 1 0"/>
-            <limit lower="${radians(-235)}" upper="${radians(55)}" effort="0" velocity="${radians(180)}"/>
+            <limit lower="${radians(-245)}" upper="${radians(65)}" effort="0" velocity="${radians(180)}"/>
         </joint>
         <joint name="${prefix}joint_4" type="revolute">
             <origin xyz="0 0 0" rpy="0 0 0"/>
