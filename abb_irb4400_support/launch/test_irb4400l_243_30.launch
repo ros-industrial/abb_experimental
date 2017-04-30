@@ -1,5 +1,5 @@
 <launch>
-  <include file="$(find abb_irb4400_support)/launch/load_irb4400l_30.launch" />
+  <include file="$(find abb_irb4400_support)/launch/load_irb4400l_243_30.launch" />
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" >
     <param name="use_gui" value="true"/>
   </node>
