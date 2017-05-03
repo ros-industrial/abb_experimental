@@ -10,12 +10,9 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>abb_resources</exec_depend>
-  <exec_depend>abb_driver</exec_depend>
   <exec_depend>abb_irb4400_support</exec_depend>
 
   <export>
     <metapackage/>
   </export>
-
 </package>
