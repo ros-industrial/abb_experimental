@@ -10,7 +10,15 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <exec_depend>abb_irb1200_support</exec_depend>
+  <exec_depend>abb_irb120_gazebo</exec_depend>
+  <exec_depend>abb_irb120_moveit_config</exec_depend>
+  <exec_depend>abb_irb120_support</exec_depend>
+  <exec_depend>abb_irb120t_moveit_config</exec_depend>
+  <exec_depend>abb_irb2600_support</exec_depend>
+  <exec_depend>abb_irb4400l_30_243_moveit_config</exec_depend>
   <exec_depend>abb_irb4400_support</exec_depend>
+  <exec_depend>abb_irb52_support</exec_depend>
 
   <export>
     <metapackage/>
