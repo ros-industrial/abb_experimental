@@ -1,12 +1,15 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>abb_experimental</name>
-  <version>1.0.0</version>
-  <description>Experimental packages for abb manipulators within ROS-Industrial.</description>
+  <version>0.1.0</version>
+  <description>Experimental packages for ABB manipulators within ROS-Industrial.</description>
+  <author email="sedwards@swri.org">Shaun Edwards</author>
   <maintainer email="sedwards@swri.org">Shaun Edwards</maintainer>
   <license>BSD</license>
-  <url type="website">http://ros.org/wiki/industrial_core</url>
-  <author email="sedwards@swri.org">Shaun Edwards</author>
+
+  <url type="website">http://wiki.ros.org/abb_experimental</url>
+  <url type="bugtracker">https://github.com/ros-industrial/abb_experimental/issues</url>
+  <url type="repository">https://github.com/ros-industrial/abb_experimental</url>
 
   <buildtool_depend>catkin</buildtool_depend>
 
