@@ -1,21 +1,29 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>abb_experimental</name>
-  <version>1.0.0</version>
-  <description>Experimental packages for abb manipulators within ROS-Industrial.</description>
+  <version>0.1.0</version>
+  <description>Experimental packages for ABB manipulators within ROS-Industrial.</description>
+  <author email="sedwards@swri.org">Shaun Edwards</author>
   <maintainer email="sedwards@swri.org">Shaun Edwards</maintainer>
   <license>BSD</license>
-  <url type="website">http://ros.org/wiki/industrial_core</url>
-  <author email="sedwards@swri.org">Shaun Edwards</author>
+
+  <url type="website">http://wiki.ros.org/abb_experimental</url>
+  <url type="bugtracker">https://github.com/ros-industrial/abb_experimental/issues</url>
+  <url type="repository">https://github.com/ros-industrial/abb_experimental</url>
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>abb_resources</exec_depend>
-  <exec_depend>abb_driver</exec_depend>
+  <exec_depend>abb_irb1200_support</exec_depend>
+  <exec_depend>abb_irb120_gazebo</exec_depend>
+  <exec_depend>abb_irb120_moveit_config</exec_depend>
+  <exec_depend>abb_irb120_support</exec_depend>
+  <exec_depend>abb_irb120t_moveit_config</exec_depend>
+  <exec_depend>abb_irb2600_support</exec_depend>
+  <exec_depend>abb_irb4400l_30_243_moveit_config</exec_depend>
   <exec_depend>abb_irb4400_support</exec_depend>
+  <exec_depend>abb_irb52_support</exec_depend>
 
   <export>
     <metapackage/>
   </export>
-
 </package>
