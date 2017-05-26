@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: yumi_description
+    relative_path: urdf/yumi.urdf
+  SRDF:
+    relative_path: config/yumi.srdf
+  CONFIG:
+    generated_timestamp: 1458234540
