@@ -1,6 +1,6 @@
 <package>
 
-  <name>abb_irb1600_moveit_config</name>
+  <name>abb_irb1600_6_12_moveit_config</name>
   <version>0.3.0</version>
   <description>
      An automatically generated package with all the configuration and launch files for using the abb_irb1600_6_12 with the MoveIt! Motion Planning Framework
