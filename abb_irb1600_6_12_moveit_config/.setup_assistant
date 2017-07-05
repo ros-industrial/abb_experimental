@@ -6,5 +6,5 @@ moveit_setup_assistant_config:
     relative_path: config/abb_irb1600_6_12.srdf
   CONFIG:
     author_name: Keerthana Manivannan
-    author_email: kmanivannan@houstonmechatronics.com
-    generated_timestamp: 1499269274
+    author_email: keerthana.manivannan@gmail.com
+    generated_timestamp: 1499271734
