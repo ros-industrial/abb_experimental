@@ -18,6 +18,7 @@
   <exec_depend>abb_irb120_moveit_config</exec_depend>
   <exec_depend>abb_irb120_support</exec_depend>
   <exec_depend>abb_irb120t_moveit_config</exec_depend>
+  <exec_depend>abb_irb1600_6_12_moveit_config</exec_depend>
   <exec_depend>abb_irb1600_support</exec_depend>
   <exec_depend>abb_irb2600_support</exec_depend>
   <exec_depend>abb_irb4600_support</exec_depend>
