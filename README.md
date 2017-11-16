@@ -22,7 +22,7 @@ wstool update
 catkin build
 ```
 
-[ROS-Industrial]: http://www.ros.org/wiki/Industrial
-[ROS wiki]: http://ros.org/wiki/abb_experimental
+[ROS-Industrial]: http://wiki.ros.org/Industrial
+[ROS wiki]: http://wiki.ros.org/abb_experimental
 [wstool]: http://wiki.ros.org/wstool
 [catkin tools]: https://catkin-tools.readthedocs.io/en/latest/
