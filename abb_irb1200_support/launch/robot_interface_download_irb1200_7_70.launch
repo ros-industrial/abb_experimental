@@ -12,7 +12,7 @@
   <arg name="robot_ip" />
   <arg name="J23_coupled" default="false" />
   
-  <rosparam command="load" file="$(find abb_irb1200_support)/config/joint_names_irb1200.yaml" />
+  <rosparam command="load" file="$(find abb_irb1200_support)/config/joint_names_irb1200_7_70.yaml" />
   
   <include file="$(find abb_driver)/launch/robot_interface.launch">
     <arg name="robot_ip"    value="$(arg robot_ip)" />
