@@ -2,7 +2,7 @@
 <!--
   Manipulator specific version of the state visualizer.
 
-  Defaults provided for IRB 1200 7/0.70:
+  Defaults provided for IRB 1200-7/0.70:
    - J23_coupled = false
 
   Usage:
