@@ -13,11 +13,10 @@
     </p>
     <p>
       Joint limits and max joint velocities are based on the information in the
-      <a href="https://library.e.abb.com/public/ff04442733894d2fa3da90cfaa0d3eee/IRB1200_ROB0275EN_A.pdf">ABB IRB 1200
-      technical data sheet</a>. All urdfs /
-      xacros are based on the default motion and joint velocity limits, unless
-      noted otherwise (ie: no support for high speed joints, extended / limited
-      motion ranges or other options).
+      <em>ABB IRB 1200 Datasheet</em>, document ID: <em>ROB0275EN_A, Sept 2016</em>.
+      All urdfs / xacros are based on the default motion and joint velocity
+      limits, unless noted otherwise (ie: no support for high speed joints,
+      extended / limited motion ranges or other options).
     </p>
     <p>
       Before using any of the configuration files and / or meshes included
