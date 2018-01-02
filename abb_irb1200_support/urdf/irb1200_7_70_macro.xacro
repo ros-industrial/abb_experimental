@@ -153,7 +153,7 @@
     <joint type="fixed" name="${prefix}joint_6-tool0">
       <parent link="${prefix}link_6"/>
       <child link="${prefix}tool0"/>
-      <origin xyz="0 0 0" rpy="0 1.57079632679 0"/>
+      <origin xyz="0 0 0" rpy="0 ${pi/2.0} 0"/>
     </joint>
     <!-- end of joint list -->
 
