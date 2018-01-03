@@ -6,7 +6,7 @@
    - J23_coupled = false
 
   Usage:
-    robot_state_visualize_irb1200_5_90.launch robot_ip:=<value>
+    robot_state_visualize_irb1200_7_70.launch robot_ip:=<value>
 -->
 <launch>
   <arg name="robot_ip" />
@@ -21,7 +21,7 @@
   
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
   
-  <include file="$(find abb_irb1200_support)/launch/load_irb1200_5_90.launch" />
+  <include file="$(find abb_irb1200_support)/launch/load_irb1200_7_70.launch" />
   
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find industrial_robot_client)/config/robot_state_visualize.rviz" required="true" />
 </launch>

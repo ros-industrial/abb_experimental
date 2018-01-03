@@ -11,7 +11,7 @@
   </group>
 
   <group ns="robot_interface_download_irb1200_5_90__">
-    <include file="$(find abb_irb1200_support)/launch/robot_interface_download_irb1200_5_90.launch">
+    <include file="$(find abb_irb1200_support)/launch/robot_interface_download_irb1200.launch">
       <arg name="robot_ip" value="$(arg ip_str)" />
     </include>
   </group>
