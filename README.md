@@ -1,5 +1,7 @@
 # ABB Experimental
 
+[![support level: community](https://img.shields.io/badge/support%20level-community-lightgray.png)](http://rosindustrial.org/news/2016/10/7/better-supporting-a-growing-ros-industrial-software-platform)
+
 [ROS-Industrial][] ABB experimental meta-package.  See the [ROS wiki][] page for more information.
 
 
@@ -8,6 +10,7 @@
 This repository contains packages that will be migrated to the [abb][] repository after they have received sufficient testing.
 The contents of these packages are subject to change, without prior notice.
 Any available APIs are to be considered unstable and are not guaranteed to be complete and / or functional.
+
 
 ## Build
 ### Build from Source (developers only, not recommended)
