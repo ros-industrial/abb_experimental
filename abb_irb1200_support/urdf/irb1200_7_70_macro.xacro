@@ -13,7 +13,8 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/visual/base_link.stl" />
+	        <!-- reference irb1200_5_90 package since mesh is shared-->
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/base_link.dae"  />
         </geometry>
         <material name="graphite_white">
           <color rgba="0.9 0.9 0.9 1"/>
@@ -29,7 +30,8 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/visual/link_1.stl" />
+	        <!-- reference irb1200_5_90 package since mesh is shared-->
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_1.dae" />
         </geometry>
         <material name="graphite_white"/>
       </visual>
@@ -43,7 +45,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/visual/link_2.stl" />
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/visual/link_2.dae" />
         </geometry>
         <material name="graphite_white"/>
       </visual>
@@ -57,7 +59,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/visual/link_3.stl" />
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/visual/link_3.dae" />
         </geometry>
         <material name="graphite_white"/>
       </visual>
@@ -71,7 +73,8 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/visual/link_4.stl" />
+	        <!-- reference irb1200_5_90 package since mesh is shared-->
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/visual/link_4.dae" />
         </geometry>
         <material name="graphite_white"/>
       </visual>
@@ -85,7 +88,8 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/visual/link_5.stl" />
+	        <!-- reference irb1200_5_90 package since mesh is shared-->
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_5.dae" />
         </geometry>
         <material name="graphite_white"/>
       </visual>
@@ -99,7 +103,8 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/visual/link_6.stl" />
+	        <!-- reference irb1200_5_90 package since mesh is shared-->
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_6.dae" />
         </geometry>
         <material name="graphite_white"/>
       </visual>
