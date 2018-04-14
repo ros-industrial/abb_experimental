@@ -5,7 +5,7 @@
     <link name="${prefix}base_link">
       <collision name="collision">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/collision/base_link.stl" />
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/base_link.stl" />
         </geometry>
         <material name="yellow">
           <color rgba="1 1 0 1"/>
@@ -13,7 +13,6 @@
       </collision>
       <visual name="visual">
         <geometry>
-	        <!-- reference irb1200_5_90 package since mesh is shared-->
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/base_link.dae"  />
         </geometry>
         <material name="graphite_white">
@@ -24,13 +23,12 @@
     <link name="${prefix}link_1">
       <collision name="collision">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/collision/link_1.stl" />
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/link_1.stl" />
         </geometry>
         <material name="yellow"/>
       </collision>
       <visual name="visual">
         <geometry>
-	        <!-- reference irb1200_5_90 package since mesh is shared-->
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_1.dae" />
         </geometry>
         <material name="graphite_white"/>
@@ -66,15 +64,18 @@
     </link>
     <link name="${prefix}link_4">
       <collision name="collision">
+        <!-- offset purely to allow reuse of meshes -->
+        <origin xyz="-0.1 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/collision/link_4.stl" />
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/link_4.stl" />
         </geometry>
         <material name="yellow"/>
       </collision>
       <visual name="visual">
+        <!-- offset purely to allow reuse of meshes -->
+        <origin xyz="-0.1 0 0" rpy="0 0 0"/>
         <geometry>
-	        <!-- reference irb1200_5_90 package since mesh is shared-->
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/visual/link_4.dae" />
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_4.dae" />
         </geometry>
         <material name="graphite_white"/>
       </visual>
@@ -82,13 +83,12 @@
     <link name="${prefix}link_5">
       <collision name="collision">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/collision/link_5.stl" />
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/link_5.stl" />
         </geometry>
         <material name="yellow"/>
       </collision>
       <visual name="visual">
         <geometry>
-	        <!-- reference irb1200_5_90 package since mesh is shared-->
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_5.dae" />
         </geometry>
         <material name="graphite_white"/>
@@ -97,13 +97,12 @@
     <link name="${prefix}link_6">
       <collision name="collision">
         <geometry>
-          <mesh filename="package://abb_irb1200_support/meshes/irb1200_7_70/collision/link_6.stl" />
+          <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/link_6.stl" />
         </geometry>
         <material name="yellow"/>
       </collision>
       <visual name="visual">
         <geometry>
-	        <!-- reference irb1200_5_90 package since mesh is shared-->
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_6.dae" />
         </geometry>
         <material name="graphite_white"/>
