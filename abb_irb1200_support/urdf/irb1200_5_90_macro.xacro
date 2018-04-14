@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find abb_resources)/urdf/common_materials.xacro"/>
+
   <xacro:macro name="abb_irb1200_5_90" params="prefix">
     <!-- link list -->
     <link name="${prefix}base_link">
@@ -12,9 +14,7 @@
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/base_link.dae"/>
         </geometry>
-        <material name="yellow">
-          <color rgba="1 1 0 1"/>
-        </material>
+        <xacro:material_abb_yellow />
       </visual>
     </link>
     <link name="${prefix}link_1">
@@ -27,7 +27,7 @@
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_1.dae"/>
         </geometry>
-        <material name="yellow"/>
+        <xacro:material_abb_yellow />
       </visual>
     </link>
     <link name="${prefix}link_2">
@@ -40,7 +40,7 @@
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_2.dae"/>
         </geometry>
-        <material name="yellow"/>
+        <xacro:material_abb_yellow />
       </visual>
     </link>
     <link name="${prefix}link_3">
@@ -53,7 +53,7 @@
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_3.dae"/>
         </geometry>
-        <material name="yellow"/>
+        <xacro:material_abb_yellow />
       </visual>
     </link>
     <link name="${prefix}link_4">
@@ -66,7 +66,7 @@
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_4.dae"/>
         </geometry>
-        <material name="yellow"/>
+        <xacro:material_abb_yellow />
       </visual>
     </link>
     <link name="${prefix}link_5">
@@ -79,7 +79,7 @@
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_5.dae"/>
         </geometry>
-        <material name="yellow"/>
+        <xacro:material_abb_yellow />
       </visual>
     </link>
     <link name="${prefix}link_6">
@@ -92,7 +92,7 @@
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/visual/link_6.dae"/>
         </geometry>
-        <material name="yellow"/>
+        <xacro:material_abb_yellow />
       </visual>
     </link>
     <link name="${prefix}tool0"/>
