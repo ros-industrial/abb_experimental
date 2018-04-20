@@ -5,6 +5,11 @@
   <xacro:macro name="abb_irb1200_5_90" params="prefix">
     <!-- link list -->
     <link name="${prefix}base_link">
+      <inertial>
+        <mass value="6.215"/>
+        <origin xyz="-0.04204 8.01E-05 0.07964" rpy="0 0 0"/>
+        <inertia ixx="0.0247272" ixy="-8.0784E-05" ixz="0.00130902" iyy="0.0491285" iyz="-8.0419E-06" izz="0.0472376"/>
+      </inertial>
       <collision name="collision">
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/base_link.stl"/>
@@ -18,6 +23,11 @@
       </visual>
     </link>
     <link name="${prefix}link_1">
+      <inertial>
+        <mass value="3.067" />
+        <origin xyz="9.77E-05 -0.00012 0.23841" rpy="0 0 0"/>
+        <inertia ixx="0.0142175" ixy="-1.28579E-05" ixz="-2.31364E-05" iyy="0.0144041" iyz="1.93404E-05" izz="0.0104533"/>
+      </inertial>
       <collision name="collision">
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/link_1.stl"/>
@@ -31,6 +41,11 @@
       </visual>
     </link>
     <link name="${prefix}link_2">
+      <inertial>
+        <mass value="3.909"/>
+        <origin xyz="0.00078 -0.00212 0.10124" rpy="0 0 0"/>
+        <inertia ixx="0.0603111" ixy="9.83431E-06" ixz="5.72407E-05" iyy="0.041569" iyz="-0.00050497" izz="0.0259548"/>
+      </inertial>
       <collision name="collision">
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/link_2.stl"/>
@@ -44,6 +59,11 @@
       </visual>
     </link>
     <link name="${prefix}link_3">
+      <inertial>
+        <mass value="2.944"/>
+        <origin xyz="0.02281 0.00106 0.05791" rpy="0 0 0"/>
+        <inertia ixx="0.00835606" ixy="-8.01545E-05" ixz="0.00142884" iyy="0.016713" iyz="-0.000182227" izz="0.0126984"/>
+      </inertial>
       <collision name="collision">
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/link_3.stl"/>
@@ -57,6 +77,11 @@
       </visual>
     </link>
     <link name="${prefix}link_4">
+      <inertial>
+        <mass value="1.328"/>
+        <origin xyz="0.2247 0.00015 0.00041" rpy="0 0 0"/>
+        <inertia ixx="0.00284661" ixy="-2.12765E-05" ixz="-1.6435E-05" iyy="0.00401346" iyz="1.31336E-05" izz="0.0052535"/>
+      </inertial>
       <collision name="collision">
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/link_4.stl"/>
@@ -70,6 +95,11 @@
       </visual>
     </link>
     <link name="${prefix}link_5">
+      <inertial>
+        <mass value="0.546"/>
+        <origin xyz="-0.00109 3.68E-05 6.22E-05" rpy="0 0 0"/>
+        <inertia ixx="0.000404891" ixy="1.61943E-06" ixz="8.46805E-07" iyy="0.000892825" iyz="-1.51792E-08" izz="0.000815468"/>
+      </inertial>
       <collision name="collision">
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/link_5.stl"/>
@@ -83,6 +113,11 @@
       </visual>
     </link>
     <link name="${prefix}link_6">
+      <inertial>
+        <mass value="0.137"/>
+        <origin xyz="-0.00706 -0.00017 -1.32E-06" rpy="0 0 0"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
       <collision name="collision">
         <geometry>
           <mesh filename="package://abb_irb1200_support/meshes/irb1200_5_90/collision/link_6.stl"/>
