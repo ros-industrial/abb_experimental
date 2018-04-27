@@ -2,6 +2,8 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:include filename="$(find abb_resources)/urdf/common_materials.xacro"/>
 
+  <!-- inertial values are copied from irb120_3_58 and are therefore not accurate,
+       use at your own risk! -->
   <xacro:macro name="abb_irb1200_5_90" params="prefix">
     <!-- link list -->
     <link name="${prefix}base_link">
