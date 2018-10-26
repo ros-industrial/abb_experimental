@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
+<xacro:include filename="$(find abb_resources)/urdf/common_materials.xacro"/>
+
   <xacro:macro name="abb_irb4600_40_255" params="prefix">
     <!-- link list -->
     <link name="${prefix}base_link">
@@ -7,11 +9,13 @@
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/collision/base_link.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/visual/base_link.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
         <material name="yellow">
           <color rgba="1 1 0 1"/>
         </material>
@@ -22,11 +26,13 @@
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/collision/link_1.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/visual/link_1.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
         <material name="yellow"/>
       </visual>
     </link>
@@ -35,11 +41,13 @@
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/collision/link_2.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/visual/link_2.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
         <material name="yellow"/>
       </visual>
     </link>
@@ -48,11 +56,13 @@
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/collision/link_3.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/visual/link_3.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
         <material name="yellow"/>
       </visual>
     </link>
@@ -61,11 +71,13 @@
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/collision/link_4.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/visual/link_4.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
         <material name="yellow"/>
       </visual>
     </link>
@@ -74,11 +86,13 @@
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/collision/link_5.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/visual/link_5.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
         <material name="yellow"/>
       </visual>
     </link>
@@ -87,11 +101,13 @@
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/collision/link_6.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/visual/link_6.stl"/>
         </geometry>
+        <xacro:material_abb_white/>
         <material name="yellow"/>
       </visual>
     </link>
