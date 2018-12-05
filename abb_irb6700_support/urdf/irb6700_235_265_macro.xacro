@@ -150,14 +150,14 @@
     <link name="${prefix}tool0"/>
 
     <joint name="${prefix}joint_1" type="revolute">
-      <origin xyz="0 0 0.288" rpy="0 0 0" />
+      <origin xyz="0 0 0.78" rpy="0 0 0" />
       <parent link="${prefix}base_link" />
       <child link="${prefix}link_1" />
       <axis xyz="0 0 1" />
       <limit lower="-${radians(170)}" upper="${radians(170)}" effort="0" velocity="${radians(100)}" />
     </joint>
     <joint name="${prefix}joint_2" type="revolute">
-      <origin xyz="0.32 0 0.492" rpy="0 0 0" />
+      <origin xyz="0.32 0 0" rpy="0 0 0" />
       <parent link="${prefix}link_1" />
       <child link="${prefix}link_2" />
       <axis xyz="0 1 0" />
@@ -185,25 +185,25 @@
       <limit lower="-${radians(130)}" upper="${radians(130)}" effort="0" velocity="${radians(120)}" />
     </joint>
     <joint name="${prefix}joint_6" type="revolute">
-      <origin xyz="0.165 0 0" rpy="0 0 0" />
+      <origin xyz="0.2 0 0" rpy="0 0 0" />
       <parent link="${prefix}link_5" />
       <child link="${prefix}link_6" />
       <axis xyz="1 0 0" />
       <limit lower="-${radians(360)}" upper="${radians(360)}" effort="0" velocity="${radians(190)}" />
     </joint>
-    <joint name="${prefix}tool_joint" type="fixed">
-      <origin xyz="0.035 0 0" rpy="0 ${radians(90)} 0" />
+    <joint name="${prefix}joint_6_tool0" type="fixed">
+      <origin xyz="0 0 0" rpy="0 ${radians(90)} 0" />
       <parent link="${prefix}link_6" />
       <child link="${prefix}tool0" />
       <axis xyz="0 0 0" />
     </joint>
     <joint name="${prefix}cylinder_joint" type="revolute">
-      <origin xyz="-0.349 -0.194 0.35" rpy="0 0 0" />
+      <origin xyz="-0.349 -0.194 -0.142" rpy="0 0 0" />
       <parent link="${prefix}link_1" />
       <child link="${prefix}cylinder" />
       <axis xyz="0 1 0" />
       <mimic joint="${prefix}joint_2" multiplier="-0.25"/>
-      <limit lower="-3" upper="3" effort="0" velocity="100" />
+      <limit lower="-${radians(65*0.25)}" upper="${radians(85*0.25)}" effort="0" velocity="100" />
     </joint>
     <joint name="${prefix}piston_joint" type="prismatic">
       <origin xyz="0 0 0" rpy="0.20897 0 -${radians(90)}" />
@@ -211,13 +211,13 @@
       <child link="${prefix}piston" />
       <axis xyz="0 1 0" />
       <mimic joint="${prefix}joint_2" multiplier="0.15"/>
-      <limit lower="-3" upper="3" effort="0" velocity="100" />
-    </joint>-->
+      <limit lower="-0.25" upper="0.25" effort="0" velocity="100" />
+    </joint>
 
     <!-- ROS base_link to ABB World Coordinates transform -->
-    <link name="${prefix}base" />
+    <link name="${prefix}base"/>
     <joint name="${prefix}base_link_base" type="fixed">
-      <origin xyz="0 0 0.780" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <parent link="${prefix}base_link"/>
       <child link="${prefix}base"/>
     </joint>
