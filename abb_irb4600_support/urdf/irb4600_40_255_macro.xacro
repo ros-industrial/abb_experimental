@@ -130,7 +130,7 @@
       <limit effort="0" lower="-1.570" upper="2.617" velocity="3.054"/>
     </joint>
     <joint type="revolute" name="${prefix}joint_3">
-      <origin xyz="0 0 0.9" rpy="0 0 0"/>
+      <origin xyz="0 0 1.095" rpy="0 0 0"/>
       <axis xyz="0 1 0"/>
       <parent link="${prefix}link_2"/>
       <child link="${prefix}link_3"/>
