@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: abb_irb6660_support
+    relative_path: urdf/irb6660_205_190.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/abb_irb6660_205_190.srdf
+  CONFIG:
+    author_name: Justin Kinney
+    author_email: justin.kinney@nov.com
+    generated_timestamp: 1550256736
