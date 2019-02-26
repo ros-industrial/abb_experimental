@@ -13,6 +13,8 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <exec_depend>abb_irb1200_5_90_moveit_config</exec_depend>
+  <exec_depend>abb_irb1200_7_70_moveit_config</exec_depend>
   <exec_depend>abb_irb1200_support</exec_depend>
   <exec_depend>abb_irb120_gazebo</exec_depend>
   <exec_depend>abb_irb120_moveit_config</exec_depend>
@@ -24,6 +26,7 @@
   <exec_depend>abb_irb4600_support</exec_depend>
   <exec_depend>abb_irb52_support</exec_depend>
   <exec_depend>abb_irb6650s_support</exec_depend>
+  <exec_depend>abb_irb6700_support</exec_depend>
   <exec_depend>abb_irb7600_support</exec_depend>
 
   <export>
