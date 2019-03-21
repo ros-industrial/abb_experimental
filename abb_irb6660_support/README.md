@@ -7,8 +7,9 @@ page on the ROS wiki for more information on usage.
 
 ## Supported Variants
 
-- IRB 6650S-90/3.9
-- IRB 6650S-125/3.5
+- IRB 6660-100/3.3
+- IRB 6660-130/3.1
+- IRB 6660-205/1.9
 
 [ROS-Industrial]: http://wiki.ros.org/Industrial
 [abb_experimental]: http://wiki.ros.org/abb_experimental
