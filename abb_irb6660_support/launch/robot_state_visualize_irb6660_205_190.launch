@@ -1,11 +1,11 @@
 <!--
   Manipulator specific version of the state visualizer.
 
-  Defaults provided for irb_6650s_125:
+  Defaults provided for irb_6660_205_190:
    - J23_coupled = true
 
   Usage:
-    robot_state_visualize_irb_6650s_125.launch robot_ip:=<value>
+    robot_state_visualize_irb_6660_205_190.launch robot_ip:=<value>
 -->
 <launch>
   <arg name="robot_ip" doc="IP of the controller" />
