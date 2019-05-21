@@ -7,8 +7,14 @@
       Gazebo support for the ABB IRB 1200
     </p>
     <p>
-      This package contains configuration and launch files
-      to simulate the ABB IRB 1200-5/90 with Gazebo.
+      This package currently only contains configuration and launch files to
+      simulate the 5/0.9 variant of the ABB IRB 1200 robot.
+    </p>
+    <p>
+      Ros control <em>effort_controllers</em> are used to move the robot joints.
+      The controller params (PID, constrains) are guesstimates, and were
+      obtained testing different values until the joint movement was good enough
+      for the intended application. You may need to change them for your simulation.
     </p>
   </description>
 

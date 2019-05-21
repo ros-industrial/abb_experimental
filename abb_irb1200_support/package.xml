@@ -19,6 +19,13 @@
       extended / limited motion ranges or other options).
     </p>
     <p>
+      Inertial values for the 5/0.9 variant were calculated from the meshes
+      using <em>Meshlab</em>, assuming constant density.
+      As the datasheet only provides the mass of the entire robot,
+      the mass of each link was estimated based on its volume, assuming
+      constant density on the entire robot.
+    </p>
+    <p>
       Before using any of the configuration files and / or meshes included
       in this package, be sure to check they are correct for the particular
       robot model and configuration you intend to use them with.
