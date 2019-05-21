@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
-  <xacro:macro name="abb_irb1200_5_90_gazebo_spec" params="prefix">
+  <xacro:include filename="$(find abb_irb1200_support)/urdf/irb1200_5_90_macro.xacro" />
+  <xacro:macro name="abb_irb1200_5_90_gazebo" params="prefix">
+
+    <!-- get base ABB IRB1200 model -->
+    <xacro:abb_irb1200_5_90 prefix="${prefix}" />
 
     <!-- transmission list -->
     <transmission name="${prefix}tran1">
