@@ -13,7 +13,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb4600_support/meshes/irb4600_common/visual/base_link.stl"/>
+          <mesh filename="package://abb_irb4600_support/meshes/irb4600_common/visual/base_link.dae"/>
         </geometry>
         <xacro:material_abb_white/>
         <material name="yellow">
@@ -30,7 +30,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb4600_support/meshes/irb4600_common/visual/link_1.stl"/>
+          <mesh filename="package://abb_irb4600_support/meshes/irb4600_common/visual/link_1.dae"/>
         </geometry>
         <xacro:material_abb_white/>
         <material name="yellow"/>
@@ -45,7 +45,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb4600_support/meshes/irb4600_20_250/visual/link_2.stl"/>
+          <mesh filename="package://abb_irb4600_support/meshes/irb4600_20_250/visual/link_2.dae"/>
         </geometry>
         <xacro:material_abb_white/>
         <material name="yellow"/>
@@ -60,7 +60,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb4600_support/meshes/irb4600_20_250/visual/link_3.stl"/>
+          <mesh filename="package://abb_irb4600_support/meshes/irb4600_20_250/visual/link_3.dae"/>
         </geometry>
         <xacro:material_abb_white/>
         <material name="yellow"/>
@@ -75,7 +75,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb4600_support/meshes/irb4600_20_250/visual/link_4.stl"/>
+          <mesh filename="package://abb_irb4600_support/meshes/irb4600_20_250/visual/link_4.dae"/>
         </geometry>
         <xacro:material_abb_white/>
         <material name="yellow"/>
@@ -90,7 +90,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb4600_support/meshes/irb4600_20_250/visual/link_5.stl"/>
+          <mesh filename="package://abb_irb4600_support/meshes/irb4600_20_250/visual/link_5.dae"/>
         </geometry>
         <xacro:material_abb_white/>
         <material name="yellow"/>
@@ -105,7 +105,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb4600_support/meshes/irb4600_20_250/visual/link_6.stl"/>
+          <mesh filename="package://abb_irb4600_support/meshes/irb4600_20_250/visual/link_6.dae"/>
         </geometry>
         <xacro:material_abb_white/>
         <material name="yellow"/>
