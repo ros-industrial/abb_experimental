@@ -2,11 +2,11 @@
 <!--
   Manipulator specific version of abb driver's 'robot_interface.launch'.
 
-  Defaults provided for IRB 52-7/1.20:
+  Defaults provided for IRB 6700-235/2.65:
    - J23_coupled = true
 
   Usage:
-    robot_interface_download_irb6700_7_120.launch robot_ip:=<value>
+    robot_interface_download_irb6700_235_265.launch robot_ip:=<value>
 -->
 <launch>
   <arg name="robot_ip" doc="IP of the controller" />
