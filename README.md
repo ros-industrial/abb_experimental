@@ -20,6 +20,11 @@ Any available APIs are to be considered unstable and are not guaranteed to be co
 Branch naming follows the ROS distribution they are compatible with. `-devel` branches may be unstable.
 
 
+## Naming Convention
+
+All robot support packages and MoveIt configurations follow the naming conventions as described in [REP-I0007][].
+
+
 ## Installation
 
 As this repository contains experimental packages, no binary packages are available.
@@ -89,6 +94,7 @@ Refer to the [tutorials][] for information on installation and configuration of 
 [ROS-Industrial]: http://wiki.ros.org/Industrial
 [ROS wiki]: http://wiki.ros.org/abb_experimental
 [abb]: https://github.com/ros-industrial/abb
+[REP-I0007]: https://github.com/ros-industrial/rep/blob/master/rep-I0007.rst
 [Catkin workspace]: http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 [catkin]: http://wiki.ros.org/catkin
 [catkin_tools]: https://catkin-tools.readthedocs.io/en/latest
