@@ -1,0 +1,25 @@
+<package>
+
+  <name>yumi_moveit_config</name>
+  <version>0.0.4</version>
+  <description>
+     An automatically generated package with all the configuration and launch files for using the yumi with the MoveIt Motion Planning Framework
+  </description>
+  <author email="todor.stoyanov@our.se">Todor Stoyanov</author>
+  <maintainer email="todor.stoyanov@our.se">Todor Stoyanov</maintainer>
+
+  <license>BSD</license>
+
+  <run_depend>moveit_ros_move_group</run_depend>
+  <run_depend>moveit_planners_ompl</run_depend>
+  <run_depend>moveit_ros_visualization</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>xacro</run_depend>
+  <build_depend>yumi_description</build_depend>
+  <run_depend>yumi_description</run_depend>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+</package>
