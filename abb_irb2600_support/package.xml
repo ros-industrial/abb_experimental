@@ -9,7 +9,7 @@
     <p>
       This package contains configuration data, 3D models and launch files
       for ABB IRB 2600 manipulators. This currently includes the IRB 2600-12/1.65
-      (20/1.65). Variants listed in parenthesis may use the files of the
+      (20/1.65) and the IRB 2600-12/1.85 (12/1.85). Variants listed in parenthesis may use the files of the
       preceding model.
     </p>
     <p>
