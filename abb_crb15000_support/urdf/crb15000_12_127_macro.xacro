@@ -46,12 +46,12 @@
     <link name="${prefix}link_3">
       <collision>
         <geometry>
-          <mesh filename="package://abb_crb15000_support/meshes/crb15000_12_127/collision/link_3.stl"/>
+          <mesh filename="package://abb_crb15000_support/meshes/crb15000_5_95/collision/link_3.stl"/>
         </geometry>
       </collision>
       <visual>
         <geometry>
-          <mesh filename="package://abb_crb15000_support/meshes/crb15000_12_127/visual/link_3.stl"/>
+          <mesh filename="package://abb_crb15000_support/meshes/crb15000_5_95/visual/link_3.stl"/>
         </geometry>
         <xacro:material_abb_dark_gray />
       </visual>
@@ -72,12 +72,12 @@
     <link name="${prefix}link_5">
       <collision>
         <geometry>
-          <mesh filename="package://abb_crb15000_support/meshes/crb15000_12_127/collision/link_5.stl"/>
+          <mesh filename="package://abb_crb15000_support/meshes/crb15000_5_95/collision/link_5.stl"/>
         </geometry>
       </collision>
       <visual>
         <geometry>
-          <mesh filename="package://abb_crb15000_support/meshes/crb15000_12_127/visual/link_5.stl"/>
+          <mesh filename="package://abb_crb15000_support/meshes/crb15000_5_95/visual/link_5.stl"/>
         </geometry>
         <xacro:material_abb_graphite_white />
       </visual>
@@ -85,12 +85,12 @@
     <link name="${prefix}link_6">
       <collision>
         <geometry>
-          <mesh filename="package://abb_crb15000_support/meshes/crb15000_12_127/collision/link_6.stl"/>
+          <mesh filename="package://abb_crb15000_support/meshes/crb15000_5_95/collision/link_6.stl"/>
         </geometry>
       </collision>
       <visual>
         <geometry>
-          <mesh filename="package://abb_crb15000_support/meshes/crb15000_12_127/visual/link_6.stl"/>
+          <mesh filename="package://abb_crb15000_support/meshes/crb15000_5_95/visual/link_6.stl"/>
         </geometry>
         <xacro:material_abb_gray_white />
       </visual>
