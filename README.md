@@ -1,6 +1,5 @@
 # ABB Experimental
 
-[![Build Status: Ubuntu Bionic (Actions)](https://github.com/ros-industrial/abb_experimental/workflows/CI%20-%20Ubuntu%20Bionic/badge.svg?branch=kinetic-devel)](https://github.com/ros-industrial/abb_experimental/actions?query=workflow%3A%22CI+-+Ubuntu+Bionic%22)
 [![Build Status: Ubuntu Focal (Actions)](https://github.com/ros-industrial/abb_experimental/workflows/CI%20-%20Ubuntu%20Focal/badge.svg?branch=kinetic-devel)](https://github.com/ros-industrial/abb_experimental/actions?query=workflow%3A%22CI+-+Ubuntu+Focal%22)
 [![Github Issues](https://img.shields.io/github/issues/ros-industrial/abb_experimental.svg)](http://github.com/ros-industrial/abb_experimental/issues)
 
