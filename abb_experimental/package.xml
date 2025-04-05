@@ -13,8 +13,6 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>abb_irb2600_support</exec_depend>
-
   <export>
     <metapackage/>
     <architecture_independent/>
