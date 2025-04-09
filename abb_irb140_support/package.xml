@@ -3,7 +3,7 @@
   <version>0.0.0</version>
   <description>
     <p>
-      ROS-Industrial support for the ABB IRB 140t (and variants).
+      ROS-Industrial support for the ABB IRB 140 (and variants).
     </p>
     <p>
       This package contains configuration data, 3D models and launch files

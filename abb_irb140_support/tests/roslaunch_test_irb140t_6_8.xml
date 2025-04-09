@@ -1,0 +1,23 @@
+<launch>
+  <arg name="ip_str" value="127.0.0.1" />
+
+  <group ns="load_irb140t_6_8__">
+    <include file="$(find abb_irb140_support)/launch/load_irb140t_6_8.launch"/>
+  </group>
+
+  <group ns="test_irb140t_6_8__">
+    <include file="$(find abb_irb140_support)/launch/test_irb140t_6_8.launch"/>
+  </group>
+
+  <group ns="robot_interface_download_irb140t_6_8__">
+    <include file="$(find abb_irb140_support)/launch/robot_interface_download_irb140t_6_8.launch">
+      <arg name="robot_ip" value="$(arg ip_str)" />
+    </include>
+  </group>
+
+  <group ns="robot_state_visualize_irb140t_6_8__">
+    <include file="$(find abb_irb140_support)/launch/robot_state_visualize_irb140t_6_8.launch">
+      <arg name="robot_ip" value="$(arg ip_str)" />
+    </include>
+  </group>
+</launch>
