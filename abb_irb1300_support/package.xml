@@ -7,8 +7,9 @@
     </p>
     <p>
       This package contains configuration data, 3D models and launch files
-      for ABB IRB 1300 manipulators. This package includes the 10kg 1.15m version.
-      Package based on ABB Document ID: 9AKK107991A0383.
+      for ABB IRB 1300 manipulators. This package includes the 10kg 1.15m version
+      and the 7kg and 12kg 1.4m versions.
+      Package based on ABB Document ID: 3HAC070393-003 Revision: T.
     </p>
     <p>
       Joint limits and max joint velocities are based on the information in
@@ -37,7 +38,6 @@
 
   <exec_depend>abb_driver</exec_depend>
   <exec_depend>abb_resources</exec_depend>
-  <exec_depend>joint_state_publisher</exec_depend>
   <exec_depend>joint_state_publisher_gui</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
   <exec_depend>rviz</exec_depend>

@@ -1,0 +1,3 @@
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find abb_irb1300_support)/urdf/irb1300_12_140.xacro'" />
+</launch>
